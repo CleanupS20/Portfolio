@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header,
+footer {
+    padding: 25px;
+    margin: auto;
+    color: #f7f8f8;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+header {
+    background: linear-gradient(180deg, #1A5276 25%, #297fb938 85%);
+}
+
+footer {
+    background: linear-gradient(0deg, #1A5276 20%, #297fb938 70%);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+header nav,
+footer nav{
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin: auto;
+    padding: 20px;
+}
+
+header nav li,
+footer nav li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about-me {
+    height: auto;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    border: 1px, solid, aqua;
+}
+
+.about-me-c {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #1A5276;
+}
+
+.about-me img {
+    display: inline-block;
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.about-me p {
+    display: inline-block;
+    font-size: 2em;
+    max-width: 50%;
+}
+
+.finished-projects {
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.finished-projects h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #1A5276;
+}
+
+/* FFFFFFFFFF */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 400px;
+    align-items: stretch;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#Horiseon,
+#project-1,
+#project-2,
+#project-3 {
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+
+
+#project-1 {
+    background-image: url(./Images/luca-bravo.jpg);
+    flex: 1;
+    height: 400px;
+    width: 50em;
+    margin-bottom: 20px;
+}
+
+#project-2 {
+    background-image: url(./Images/michael-dziedzic-Image.jpg);
+    flex: 1;
+    height: 400px;
+    width: 50em;
+    margin-bottom: 20px;
+}
+
+#project-3 {
+    background-image: url(./Images/markus-spiske.jpg);
+    flex: 1;
+    height: 400px;
+    width: 50em;
+}
+
+#Horiseon {
+    background-image: url(./Images/christopher-burns.jpg);
+    flex: 3;
+    height: 1240px;
+    width: 100em;
+}
+
+h3 {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    -webkit-text-stroke: .5px black;
+}
+
+.future-project-1 {
+    background-image: url(./Images/under-construction-sml-sml.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25em;
+    width: 100%;
+
+}
+
+.contact {
+    float: right;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+.contact li a { 
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    color: #1A5276;
+    font-size: 1.5em;
+    margin: 20px;
+}
