@@ -29,7 +29,7 @@ header h1 {
 }
 
 header nav,
-footer nav{
+footer nav {
     display: inline-block;
     list-style-type: none;
     float: right;
@@ -60,10 +60,11 @@ a {
 .about-me-c {
     display: inline-block;
     vertical-align: middle;
+
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3.5em;
     text-align: center;
     color: #1A5276;
 }
@@ -85,15 +86,15 @@ h2 {
     height: auto;
     align-items: center;
     flex-wrap: wrap;
+    border: 5px solid #1A5276;
 }
 
 .finished-projects h2 {
-    font-size: 35px;
+    font-size: 3.5em;
     text-align: center;
     color: #1A5276;
 }
 
-/* FFFFFFFFFF */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -116,32 +117,54 @@ main {
 
 #project-1 {
     background-image: url(./Images/luca-bravo.jpg);
-    flex: 1;
+    flex-grow: 1;
     height: 400px;
-    width: 50em;
+    width: 50rem;
     margin-bottom: 20px;
+    transition: 1s;
+}
+
+#project-1:hover {
+    transform: scale(0.8);
 }
 
 #project-2 {
     background-image: url(./Images/michael-dziedzic-Image.jpg);
-    flex: 1;
+    flex-grow: 1;
     height: 400px;
-    width: 50em;
+    width: 50rem;
     margin-bottom: 20px;
+    transition: 1s;
 }
+
+#project-2:hover {
+    transform: scale(0.8);
+}
+
 
 #project-3 {
     background-image: url(./Images/markus-spiske.jpg);
-    flex: 1;
+    flex-grow: 1;
     height: 400px;
-    width: 50em;
+    width: 50rem;
+    transition: 1s;
 }
+
+#project-3:hover {
+    transform: scale(0.8);
+}
+
 
 #Horiseon {
     background-image: url(./Images/christopher-burns.jpg);
-    flex: 3;
-    height: 1240px;
-    width: 100em;
+    flex-grow: 2;
+    height: 800px;
+    width: 100rem;
+    transition: 1s;
+}
+
+#Horiseon:hover {
+    transform: scale(0.8);
 }
 
 h3 {
@@ -151,7 +174,7 @@ h3 {
     text-align: center;
     align-items: center;
     padding: 20px;
-    font-size: 30px;
+    font-size: 5em;
     font-weight: 300;
     -webkit-text-stroke: .5px black;
 }
@@ -162,7 +185,11 @@ h3 {
     background-position: center;
     height: 25em;
     width: 100%;
+    transition: 1s;
+}
 
+.future-project-1:hover {
+    transform: scale(0.8);
 }
 
 .contact {
@@ -178,7 +205,7 @@ h3 {
     font-size: 1.2em;
 }
 
-.contact li a { 
+.contact li a {
     display: inline-block;
     list-style: none;
     list-style-type: none;
@@ -186,3 +213,7 @@ h3 {
     font-size: 1.5em;
     margin: 20px;
 }
+
+/* #horiseon-section{
+overflow-x: hidden;
+} */
