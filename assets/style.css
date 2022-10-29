@@ -83,7 +83,7 @@ h2 {
 .finished-projects {
     display: flex;
     height: auto;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     border: 5px solid #1A5276;
 }
@@ -104,22 +104,33 @@ main {
     vertical-align: middle;
 }
 
-#Horiseon,
+#horiseon,
 #project-1,
 #project-2,
 #project-3 {
     background-size: cover;
     background-position: center;
-    margin-left: 20px;
+    margin: 20px;
 }
 
+#horiseon {
+    background-image: url(./Images/christopher-burns.jpg);
+    transition: 1s;
+    height: 400px;
+}
+
+#horiseon:hover {
+    transform: scale(0.8);
+}
+
+.horiseon-project{
+    flex: 3 0 50%;
+}
 
 #project-1 {
     background-image: url(./Images/luca-bravo.jpg);
-    flex-grow: 1;
+    flex: 1 0 25%;
     height: 400px;
-    width: 50rem;
-    margin-bottom: 20px;
     transition: 1s;
 }
 
@@ -129,10 +140,8 @@ main {
 
 #project-2 {
     background-image: url(./Images/michael-dziedzic-Image.jpg);
-    flex-grow: 1;
+    flex: 1 0 25%;
     height: 400px;
-    width: 50rem;
-    margin-bottom: 20px;
     transition: 1s;
 }
 
@@ -143,26 +152,12 @@ main {
 
 #project-3 {
     background-image: url(./Images/markus-spiske.jpg);
-    flex-grow: 1;
+    flex: 1 0 25%;
     height: 400px;
-    width: 50rem;
     transition: 1s;
 }
 
 #project-3:hover {
-    transform: scale(0.8);
-}
-
-
-#Horiseon {
-    background-image: url(./Images/christopher-burns.jpg);
-    flex-grow: 2;
-    height: 800px;
-    width: 100rem;
-    transition: 1s;
-}
-
-#Horiseon:hover {
     transform: scale(0.8);
 }
 
