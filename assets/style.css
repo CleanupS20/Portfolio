@@ -60,7 +60,6 @@ a {
 .about-me-c {
     display: inline-block;
     vertical-align: middle;
-
 }
 
 h2 {
@@ -213,7 +212,3 @@ h3 {
     font-size: 1.5em;
     margin: 20px;
 }
-
-/* #horiseon-section{
-overflow-x: hidden;
-} */
