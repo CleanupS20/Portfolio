@@ -113,6 +113,7 @@ main {
     margin: 20px;
 }
 
+
 #horiseon {
     background-image: url(./Images/christopher-burns.jpg);
     transition: 1s;
@@ -128,7 +129,7 @@ main {
 }
 
 #project-1 {
-    background-image: url(./Images/luca-bravo.jpg);
+    background-image: url(./Images/Website\ Screenshot.gif);
     flex: 1 0 25%;
     height: 400px;
     transition: 1s;
