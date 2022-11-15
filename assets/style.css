@@ -30,7 +30,6 @@ header h1 {
 
 header nav,
 footer nav {
-    display: inline-block;
     list-style-type: none;
     float: right;
     margin: auto;
@@ -188,7 +187,6 @@ h3 {
 
 .contact {
     float: right;
-    display: inline-block;
     margin: auto;
     padding: 20px;
 }
